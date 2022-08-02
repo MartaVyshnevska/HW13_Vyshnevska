@@ -1,0 +1,33 @@
+.contacts--background {
+    background-color: #fff;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts__img {
+    width: 258px;
+}
+
+.contacts__number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contacts__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 40px;
+}

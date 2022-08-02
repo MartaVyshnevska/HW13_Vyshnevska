@@ -4,38 +4,53 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="красота, кресла, парикмахерские кресла">
     <meta name="description" content="магазин по продаже парикмахерского оборудования">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Beauty chairs</title>
 </head>
 <body>
     <header>
-        <div class="wrapper">
-            <div>
-                <a href="/">Доставка</a>
-                <a href="/">Оплата</a>
-                <a href="/">Отзывы</a>
-                <a href="/">Вопрос - ответ</a>
-                <a href="/">Контакты</a>
-            </div>
-            <div>
-                <div>
-                    <a href="./">
-                        <img src="./images/logo.png" alt="Beauty logo">
-                    </a>
-                </div>
-                <div>
-                    <a href="tel:88121234567">8 (812) 123-45-67</a>
-                    <button>Обратный звонок</button>
+        <div class="breadcrumb--background">
+            <div class="wrapper">
+                <div class="breadcrumb">
+                    <a class="breadcrumb__link" href="/">Доставка</a>
+                    <a class="breadcrumb__link" href="/">Оплата</a>
+                    <a class="breadcrumb__link" href="/">Отзывы</a>
+                    <a class="breadcrumb__link" href="/">Вопрос - ответ</a>
+                    <a class="breadcrumb__link" href="/">Контакты</a>
                 </div>
             </div>
-            <nav>
-                <a href="./">Парикмахерская</a>
-                <a href="./">Барбершоп</a>
-                <a href="./">Маникюр</a>
-                <a href="./">Педикюр</a>
-                <a href="./">Массаж</a>
-                <a href="./">Мебель</a>
-            </nav>
-        </div>       
+        </div>
+        <div class="contacts--background">
+            <div class="wrapper">
+                <div class="contacts">
+                    <div class="contacts__logo">
+                        <a href="./">
+                            <img  class="contacts__img" src="./images/logo.png" alt="Beauty logo">
+                        </a>
+                    </div>
+                    <div class="contacts__number">
+                        <a class="contacts__link" href="tel:88121234567">8 (812) 123-45-67</a>
+                        <button class="button">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="navigation--background">
+            <div class="wrapper">
+                <nav class="navigation">
+                    <a class="navigation__link" href="./">Парикмахерская</a>
+                    <a class="navigation__link" href="./">Барбершоп</a>
+                    <a class="navigation__link" href="./">Маникюр</a>
+                    <a class="navigation__link" href="./">Педикюр</a>
+                    <a class="navigation__link" href="./">Массаж</a>
+                    <a class="navigation__link" href="./">Мебель</a>
+                </nav>
+            </div>
+        </div>                    
     </header>
     <main>
         <section>
@@ -342,8 +357,8 @@
                     </div>
                 </div>
                 <div>
-                    <a href="tel:88121234567">8 (812) 123-45-67</a>
-                    <button>Обратный звонок</button>
+                    <a class="contacts__link" href="tel:88121234567">8 (812) 123-45-67</a>
+                    <button class="button">Обратный звонок</button>
                 </div>
             </div>
         </section>
