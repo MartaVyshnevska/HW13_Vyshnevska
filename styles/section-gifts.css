@@ -1,0 +1,9 @@
+.section-gifts {
+    background-color: #E5E5E5;
+    padding-bottom: 100px;
+}
+
+.section--card-2--block {
+    display: flex;
+    justify-content: space-between;
+}
