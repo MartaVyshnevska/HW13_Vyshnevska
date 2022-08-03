@@ -1,0 +1,19 @@
+.section-logo {
+    background-color: #E5E5E5;
+    padding-bottom: 80px;
+}
+
+.section__logo-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link__logo {
+    padding: 35px 62px;
+    background-color: #fff;
+    border: 1px solid #EFEFEF;;
+}
+
+.link__logo-pic {
+    width: 150px;
+}
