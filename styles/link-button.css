@@ -1,0 +1,12 @@
+.link-button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
