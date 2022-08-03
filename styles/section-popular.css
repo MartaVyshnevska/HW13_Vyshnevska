@@ -1,0 +1,43 @@
+.section-popular {
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px solid #EFEFEF;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.block-popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading--popular {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.section__heading-head {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+    width: 150px;
+    margin: 0;
+}
+
+.block-popular__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    width: 255px; 
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
