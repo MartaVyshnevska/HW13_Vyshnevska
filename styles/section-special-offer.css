@@ -1,0 +1,14 @@
+.section-special-offer {
+    background-color: #E5E5E5;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.section__headding {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 40px;
+}

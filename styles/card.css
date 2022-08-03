@@ -1,0 +1,32 @@
+.card {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px 30px;
+}
+
+.card__image {
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.card__text {
+    width: 195px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card__text--price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card__link-button {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+}
