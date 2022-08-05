@@ -1,0 +1,24 @@
+.footer {
+    background-color: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer__link {
+    display: block;
+    width: fit-content;
+    line-height: 14px;
+    color: #828282;
+    align-self: center;
+}
