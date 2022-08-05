@@ -1,0 +1,28 @@
+.section-contacts {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.block-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-contacts__block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div_flex {
+display: flex;
+align-items:center;
+}
+
+.div_flex-new {
+
+}
+
+.div_flex-new_new {
+
+}
