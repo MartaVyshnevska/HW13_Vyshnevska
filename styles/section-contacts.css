@@ -14,15 +14,17 @@
     justify-content: flex-start;
 }
 
-.div_flex {
-display: flex;
-align-items:center;
+.media {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 
-.div_flex-new {
-
-}
-
-.div_flex-new_new {
-
+.media:nth-last-child(1) {
+    margin-right: 0;
 }
