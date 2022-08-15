@@ -2,7 +2,7 @@
     background-image: url(../images/cover_chair.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #F13C6E;
     padding-top: 190px;
     padding-bottom: 190px;
