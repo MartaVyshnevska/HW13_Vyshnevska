@@ -11,7 +11,15 @@
 .link__logo {
     padding: 35px 62px;
     background-color: #fff;
-    border: 1px solid #EFEFEF;;
+    border-right: 1px solid #EFEFEF;
+}
+
+.link__logo:nth-child(4n) {
+    border-right: none;
+}
+
+.link__logo:nth-last-child(n+5) {
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .link__logo-pic {
