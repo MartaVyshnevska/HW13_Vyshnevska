@@ -2,6 +2,8 @@
     background: #FFFFFF;
     border-radius: 30px;
     padding: 10px 25px;
+    border: none;
+    outline: none;
 }
 
 input::placeholder {
